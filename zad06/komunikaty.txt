@@ -1,0 +1,13 @@
+New country added
+
+Country stats:
+{u'country': u'Brazil', u'capital': u'Brasilia', u'continent': u'SouthAmerica', u'population': 212000000}
+
+Population modificated:
+{u'country': u'Brazil', u'capital': u'Brasilia', u'continent': u'SouthAmerica', u'population': 230000000}
+
+Country deleted.
+First attempt to get data:
+None
+Second attempt to get data:
+None
