@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/forfk1rOwKAumMGUyJjHyiC7U/Y2XxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24063>; rel="up"
+Last-Modified: Thu, 02 Dec 2021 21:39:41 GMT
+ETag: "28kOQXZAubtH17DMtUKURl"
+Date: Thu, 02 Dec 2021 21:40:29 GMT
+Content-Type: application/json
+Content-Length: 32
+
+{"politicalSystem": "communism"}

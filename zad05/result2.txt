@@ -1,0 +1,15 @@
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/forvlbzJwKAumMGUyJjHyvBss+xtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24063>; rel="up"
+Last-Modified: Thu, 02 Dec 2021 21:17:26 GMT
+ETag: "56nQOT3ol2OR9j3MwC3xf7"
+Date: Thu, 02 Dec 2021 21:18:33 GMT
+Content-Type: application/json
+Content-Length: 98
+
+{"country": "Brazil", "continent": "SouthAmerica", "capital": "Brasilia", "population": 212000000}
+
+

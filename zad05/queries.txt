@@ -1,0 +1,60 @@
+1)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Brazil", "continent": "SouthAmerica", "capital": "Brasilia", "population": 212000000}' http://localhost:8098/buckets/s24063/keys/brazil
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Poland", "continent": "Europe", "capital": "Warsaw", "population": 38000000}' http://localhost:8098/buckets/s24063/keys/poland
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Japan", "continent": "Asia", "capital": "Tokio", "population": 125000000}' http://localhost:8098/buckets/s24063/keys/japan
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Netherlands", "continent": "Europe", "capital": "Amsterdam", "population": 17000000}' http://localhost:8098/buckets/s24063/keys/netherlands
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Italy", "continent": "Europe", "capital": "Rome", "population": 59000000}' http://localhost:8098/buckets/s24063/keys/italy
+
+
+2)
+curl -i -XGET  http://localhost:8098/buckets/s24063/keys/brazil
+
+
+3)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Brazil", "continent": "SouthAmerica", "capital": "Brasilia", "population": 212000000, language: portuguese}' http://localhost:8098/buckets/s24063/keys/brazil
+
+
+4)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Poland", "continent": "Europe", "population": 38000000}' http://localhost:8098/buckets/s24063/keys/poland
+
+
+5)
+curl -i -XPUT -H "Content-Type: application/json" -d '{"country": "Italy", "continent": "Europe", "capital": "Rome", "population": 60000000}' http://localhost:8098/buckets/s24063/keys/italy
+
+
+6)
+curl -i -XDELETE http://localhost:8098/buckets/s24063/keys/netherlands
+
+
+7)
+curl -i -XGET  http://localhost:8098/buckets/s24063/keys/ukraine
+
+
+8)
+curl -i -XPOST -H "Content-Type: application/json" -d '{"politicalSystem": "communism"}' http://localhost:8098/buckets/s24063/keys
+
+
+9)
+curl -i -XGET  http://localhost:8098/buckets/s24063/keys/6V2FAF3y2AxfOHBqkQXqGiBygym
+
+
+10)
+curl -i -XDELETE http://localhost:8098/buckets/s24063/keys/6V2FAF3y2AxfOHBqkQXqGiBygym
+
+
+
+
+
+
+
+
+
+
+
+
+
+
