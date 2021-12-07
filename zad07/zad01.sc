@@ -47,7 +47,7 @@ def zad01c (lista : List[String]) = {
   var i = 0 
   
   while (i < lista.length) { 
-    if (result == "" && lista(i).startsWith("p")) result = lista(i)
+    if (result == "") result = lista(i)
     else result = result + ", " + lista(i)
     i = i + 1
   }
