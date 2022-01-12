@@ -1,10 +1,10 @@
 import riak
 riakClient = riak.RiakClient(pb_port=8087)
 
-bucket = riakClient.bucket('s14051_cw8')
+bucket = riakClient.bucket('s24063_cw8')
 
 # dodanie
-student = {"NBD": True, "name": "Maciej Sados"}
+student = {"NBD": True, "name": "Paweł Michnowicz"}
 key = bucket.new('student', data=student)
 key.store()
 print('Dodano studenta')
